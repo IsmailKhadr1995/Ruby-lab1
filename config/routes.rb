@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
    
+  resources :comments
   # get 'posts/index'
   # get 'posts/show'
   # get 'posts/new'
-  # get 'posts/create'
+  # post  'posts/create'
   # get 'posts/update'
   # get 'posts/edit'
   # get 'posts/destroy'
